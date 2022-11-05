@@ -1,0 +1,41 @@
+.listitem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding: 10px;
+}
+.listinner {
+  display: flex;
+  flex-direction: row;
+}
+.listimage {
+  height: 40px;
+  width: 40px;
+}
+.listtime {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.listtitle {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 20px;
+}
+.listdomain {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 20px;
+  color: #64748b;
+}
+.listbtn {
+  color: white;
+  background-color: white;
+  border: none;
+}
+.btnimage {
+  height: 40px;
+  width: 40px;
+}
